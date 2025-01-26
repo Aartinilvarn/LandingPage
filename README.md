@@ -1,4 +1,47 @@
- 
+# Hosting Landing Page using AWS S3 Bucket
+This project involves hosting a static landing page using HTML and CSS on AWS S3 (Simple Storage Service). This README provides a comprehensive guide on setting up the project and deploying the landing page.
+
+## Introduction
+
+This project demonstrates how to host a static landing page using AWS S3. AWS S3 is a scalable storage service that can be used to store and retrieve any amount of data at any time from anywhere on the web. By hosting your landing page on S3, you benefit from high availability, scalability, and low cost.
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+- An AWS account
+- Basic knowledge of HTML and CSS
+
+## Setup Instructions
+
+Follow these steps to set up and host your landing page on AWS S3:
+
+1. **Create an S3 Bucket**:
+   - Log in to the AWS Management Console.
+   - Navigate to the S3 service.
+   - Click on "Create bucket."
+   - Provide a unique bucket name (e.g., `my-landing-page-bucket`) and choose a region.
+   - Click "Create bucket."
+2. **Upload Your Files**:
+   - In the S3 bucket, click "Upload."
+   - Upload your HTML and CSS files (e.g., `index.html`, `styles.css`).
+
+3. **Configure Bucket for Static Website Hosting**:
+   - Go to the "Properties" tab of your bucket.
+   - Scroll down to "Static website hosting" and click "Edit."
+   - Select "Enable" and provide the index document (e.g., `index.html`).
+   - Save changes.
+## Deployment
+
+Your static landing page is now hosted on AWS S3. You can access it using the S3 bucket URL. The URL format is usually:
+
+
+
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/7f0fbc4e-6319-43ec-b83d-88cae08b99e7)
 ![image](https://github.com/user-attachments/assets/749fd2b7-3ed3-4f82-b96d-e057c69e2eea)
